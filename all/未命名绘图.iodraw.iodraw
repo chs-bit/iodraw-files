@@ -1,0 +1,768 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="24.7.17">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="1213" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-1" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;" parent="1" source="C-vyLk0tnHw3VtMMgP7b-24" target="C-vyLk0tnHw3VtMMgP7b-6" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="340" y="720" as="sourcePoint" />
+            <mxPoint x="440" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-12" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;" parent="1" source="C-vyLk0tnHw3VtMMgP7b-3" target="C-vyLk0tnHw3VtMMgP7b-17" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="400" y="180" as="sourcePoint" />
+            <mxPoint x="460" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-2" value="Orders" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="120" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-3" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-4" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="C-vyLk0tnHw3VtMMgP7b-3" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-5" value="order_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="C-vyLk0tnHw3VtMMgP7b-3" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-6" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-7" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-6" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-8" value="customer_id int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-6" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-9" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-10" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-9" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-11" value="order_date date NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-9" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-13" value="Shipments" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="280" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-14" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-13" vertex="1">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-15" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="C-vyLk0tnHw3VtMMgP7b-14" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-16" value="shipment_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="C-vyLk0tnHw3VtMMgP7b-14" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-17" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-13" vertex="1">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-18" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-17" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-19" value="order_id int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-17" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-20" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-13" vertex="1">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-21" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-20" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-22" value="shipment_date date NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-20" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-23" value="Customers" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="120" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-24" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-23" vertex="1">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-25" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="C-vyLk0tnHw3VtMMgP7b-24" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-26" value="customer_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="C-vyLk0tnHw3VtMMgP7b-24" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-27" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-23" vertex="1">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-28" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-27" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-29" value="customer_name char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-27" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-1" value="/*&#xa;  大学生创新创业管理系统 - 终极重构版 (2026.02.07)&#xa;  操作风险：此脚本会清空当前数据库中的所有相关表！&#xa;*/&#xa;&#xa;SET NAMES utf8mb4;&#xa;-- 关键：关闭外键检查，确保能强制删表&#xa;SET FOREIGN_KEY_CHECKS = 0;&#xa;&#xa;-- =======================================================&#xa;-- 0. 暴力清理旧数据 (Drop Everything)&#xa;-- =======================================================&#xa;-- 0.1 删除视图&#xa;DROP VIEW IF EXISTS `view_export_papers`;&#xa;DROP VIEW IF EXISTS `view_export_patents`;&#xa;DROP VIEW IF EXISTS `view_export_competitions`;&#xa;&#xa;-- 0.2 删除临时表&#xa;DROP TABLE IF EXISTS `tmp_import_buffer`;&#xa;&#xa;-- 0.3 删除业务关联表&#xa;DROP TABLE IF EXISTS `biz_paper_authors`;&#xa;DROP TABLE IF EXISTS `biz_patent_authors`;&#xa;DROP TABLE IF EXISTS `biz_competition_members`;&#xa;&#xa;-- 0.4 删除业务实体表&#xa;DROP TABLE IF EXISTS `biz_project_papers`;&#xa;DROP TABLE IF EXISTS `biz_project_patents`;&#xa;DROP TABLE IF EXISTS `biz_project_competitions`;&#xa;&#xa;DROP TABLE IF EXISTS `sys_audit_logs`;&#xa;DROP TABLE IF EXISTS `biz_project_reviews`;&#xa;DROP TABLE IF EXISTS `biz_project_expert_allocations`;&#xa;DROP TABLE IF EXISTS `biz_project_reports`;&#xa;DROP TABLE IF EXISTS `biz_project_expenses`;&#xa;DROP TABLE IF EXISTS `biz_project_budgets`;&#xa;DROP TABLE IF EXISTS `biz_project_advisors`;&#xa;DROP TABLE IF EXISTS `biz_project_members`;&#xa;DROP TABLE IF EXISTS `biz_projects`;&#xa;&#xa;-- 0.5 删除流程引擎表&#xa;DROP TABLE IF EXISTS `sys_flow_transitions`;&#xa;DROP TABLE IF EXISTS `sys_flow_steps`;&#xa;DROP TABLE IF EXISTS `sys_flow_phases`;&#xa;&#xa;-- 0.6 删除系统基础表&#xa;DROP TABLE IF EXISTS `sys_user_roles`;&#xa;DROP TABLE IF EXISTS `sys_roles`;&#xa;DROP TABLE IF EXISTS `sys_teacher_profiles`;&#xa;DROP TABLE IF EXISTS `sys_student_profiles`;&#xa;DROP TABLE IF EXISTS `sys_users`;&#xa;DROP TABLE IF EXISTS `sys_colleges`;&#xa;DROP TABLE IF EXISTS `sys_dicts`;&#xa;&#xa;-- =======================================================&#xa;-- 1. 系统基础模块 (System Foundation)&#xa;-- =======================================================&#xa;&#xa;-- 1.1 通用字典&#xa;CREATE TABLE `sys_dicts` (&#xa;                             `dict_id` INT AUTO_INCREMENT PRIMARY KEY,&#xa;                             `type_code` VARCHAR(50) NOT NULL COMMENT &#39;字典类型&#39;,&#xa;                             `dict_label` VARCHAR(100) NOT NULL COMMENT &#39;展示名&#39;,&#xa;                             `dict_value` VARCHAR(100) NOT NULL COMMENT &#39;存储值&#39;,&#xa;                             `sort` INT DEFAULT 0,&#xa;                             `status` TINYINT DEFAULT 1,&#xa;                             INDEX `idx_type` (`type_code`)&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT=&#39;通用数据字典&#39;;&#xa;&#xa;-- 1.2 学院组织&#xa;CREATE TABLE `sys_colleges` (&#xa;                                `college_id` INT NOT NULL AUTO_INCREMENT,&#xa;                                `name` VARCHAR(100) NOT NULL COMMENT &#39;学院名称&#39;,&#xa;                                `code` VARCHAR(50) COMMENT &#39;编码&#39;,&#xa;                                PRIMARY KEY (`college_id`),&#xa;                                UNIQUE KEY `uk_name` (`name`)&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT=&#39;学院组织&#39;;&#xa;&#xa;-- 1.3 统一用户&#xa;CREATE TABLE `sys_users` (&#xa;                             `user_id` BIGINT NOT NULL AUTO_INCREMENT,&#xa;                             `username` VARCHAR(50) NOT NULL COMMENT &#39;学号/工号&#39;,&#xa;                             `password` VARCHAR(255) NOT NULL DEFAULT &#39;123456&#39;,&#xa;                             `real_name` VARCHAR(50) NOT NULL COMMENT &#39;姓名&#39;,&#xa;                             `college_id` INT NOT NULL COMMENT &#39;归属学院&#39;,&#xa;                             `user_type` VARCHAR(20) NOT NULL COMMENT &#39;student/teacher/expert/admin&#39;,&#xa;                             `status` TINYINT DEFAULT 1,&#xa;                             `create_time` DATETIME DEFAULT CURRENT_TIMESTAMP,&#xa;                             PRIMARY KEY (`user_id`),&#xa;                             UNIQUE KEY `uk_username` (`username`),&#xa;                             FOREIGN KEY (`college_id`) REFERENCES `sys_colleges` (`college_id`)&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT=&#39;统一用户&#39;;&#xa;&#xa;-- 1.4 用户档案扩展&#xa;CREATE TABLE `sys_student_profiles` (&#xa;                                        `user_id` BIGINT NOT NULL PRIMARY KEY,&#xa;                                        `major_name` VARCHAR(100),&#xa;                                        `class_name` VARCHAR(50),&#xa;                                        `enrollment_year` INT,&#xa;                                        FOREIGN KEY (`user_id`) REFERENCES `sys_users` (`user_id`) ON DELETE CASCADE&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&#xa;&#xa;CREATE TABLE `sys_teacher_profiles` (&#xa;                                        `user_id` BIGINT NOT NULL PRIMARY KEY,&#xa;                                        `title` VARCHAR(50),&#xa;                                        `degree` VARCHAR(50),&#xa;                                        FOREIGN KEY (`user_id`) REFERENCES `sys_users` (`user_id`) ON DELETE CASCADE&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&#xa;&#xa;-- 1.5 角色&#xa;CREATE TABLE `sys_roles` (&#xa;                             `role_id` INT NOT NULL AUTO_INCREMENT,&#xa;                             `role_code` VARCHAR(50) NOT NULL,&#xa;                             `role_name` VARCHAR(50) NOT NULL,&#xa;                             PRIMARY KEY (`role_id`)&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&#xa;&#xa;CREATE TABLE `sys_user_roles` (&#xa;                                  `id` BIGINT NOT NULL AUTO_INCREMENT,&#xa;                                  `user_id` BIGINT NOT NULL,&#xa;                                  `role_id` INT NOT NULL,&#xa;                                  PRIMARY KEY (`id`),&#xa;                                  UNIQUE KEY `uk_ur` (`user_id`, `role_id`),&#xa;                                  FOREIGN KEY (`user_id`) REFERENCES `sys_users` (`user_id`) ON DELETE CASCADE,&#xa;                                  FOREIGN KEY (`role_id`) REFERENCES `sys_roles` (`role_id`)&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&#xa;&#xa;-- =======================================================&#xa;-- 2. 动态流程引擎 (Process Engine)&#xa;-- =======================================================&#xa;CREATE TABLE `sys_flow_phases` (&#xa;                                   `phase_id` INT NOT NULL AUTO_INCREMENT,&#xa;                                   `phase_code` VARCHAR(50) NOT NULL,&#xa;                                   `phase_name` VARCHAR(50) NOT NULL,&#xa;                                   `sort` INT DEFAULT 0,&#xa;                                   PRIMARY KEY (`phase_id`)&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&#xa;&#xa;CREATE TABLE `sys_flow_steps` (&#xa;                                  `step_id` INT NOT NULL COMMENT &#39;步骤ID&#39;,&#xa;                                  `phase_id` INT NOT NULL,&#xa;                                  `step_name` VARCHAR(50) NOT NULL,&#xa;                                  PRIMARY KEY (`step_id`),&#xa;                                  FOREIGN KEY (`phase_id`) REFERENCES `sys_flow_phases` (`phase_id`)&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&#xa;&#xa;CREATE TABLE `sys_flow_transitions` (&#xa;                                        `transition_id` INT AUTO_INCREMENT PRIMARY KEY,&#xa;                                        `current_step_id` INT NOT NULL,&#xa;                                        `role_code` VARCHAR(50) NOT NULL,&#xa;                                        `action_code` VARCHAR(50) NOT NULL,&#xa;                                        `target_step_id` INT NOT NULL,&#xa;                                        FOREIGN KEY (`current_step_id`) REFERENCES `sys_flow_steps` (`step_id`)&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&#xa;&#xa;-- =======================================================&#xa;-- 3. 项目核心模块 (Project Core)&#xa;-- =======================================================&#xa;CREATE TABLE `biz_projects` (&#xa;                                `project_id` BIGINT NOT NULL AUTO_INCREMENT,&#xa;                                `project_code` VARCHAR(50) COMMENT &#39;项目编号&#39;,&#xa;                                `year` INT NOT NULL COMMENT &#39;年份&#39;,&#xa;                                `name` VARCHAR(200) NOT NULL COMMENT &#39;项目名称&#39;,&#xa;                                `type` VARCHAR(50) COMMENT &#39;类型&#39;,&#xa;                                `level` VARCHAR(50) COMMENT &#39;级别&#39;,&#xa;                                `status` TINYINT DEFAULT 1,&#xa;                                `leader_id` BIGINT NOT NULL COMMENT &#39;负责人&#39;,&#xa;                                `college_id` INT NOT NULL COMMENT &#39;所属学院&#39;,&#xa;                                `current_step_id` INT DEFAULT 1010,&#xa;                                `create_time` DATETIME DEFAULT CURRENT_TIMESTAMP,&#xa;                                PRIMARY KEY (`project_id`),&#xa;                                UNIQUE KEY `uk_code` (`project_code`),&#xa;                                FOREIGN KEY (`leader_id`) REFERENCES `sys_users` (`user_id`),&#xa;                                FOREIGN KEY (`college_id`) REFERENCES `sys_colleges` (`college_id`)&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&#xa;&#xa;CREATE TABLE `biz_project_members` (&#xa;                                       `id` BIGINT NOT NULL AUTO_INCREMENT,&#xa;                                       `project_id` BIGINT NOT NULL,&#xa;                                       `user_id` BIGINT NOT NULL,&#xa;                                       `member_sort` INT DEFAULT 99,&#xa;                                       PRIMARY KEY (`id`),&#xa;                                       UNIQUE KEY `uk_pu` (`project_id`, `user_id`),&#xa;                                       FOREIGN KEY (`project_id`) REFERENCES `biz_projects` (`project_id`) ON DELETE CASCADE&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&#xa;&#xa;CREATE TABLE `biz_project_advisors` (&#xa;                                        `id` BIGINT NOT NULL AUTO_INCREMENT,&#xa;                                        `project_id` BIGINT NOT NULL,&#xa;                                        `teacher_id` BIGINT NOT NULL,&#xa;                                        PRIMARY KEY (`id`),&#xa;                                        FOREIGN KEY (`project_id`) REFERENCES `biz_projects` (`project_id`) ON DELETE CASCADE&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&#xa;&#xa;CREATE TABLE `biz_project_budgets` (&#xa;                                       `budget_id` BIGINT NOT NULL AUTO_INCREMENT,&#xa;                                       `project_id` BIGINT NOT NULL,&#xa;                                       `item_name` VARCHAR(100) NOT NULL,&#xa;                                       `amount` DECIMAL(10, 2) NOT NULL,&#xa;                                       PRIMARY KEY (`budget_id`),&#xa;                                       FOREIGN KEY (`project_id`) REFERENCES `biz_projects` (`project_id`) ON DELETE CASCADE&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&#xa;&#xa;CREATE TABLE `biz_project_expenses` (&#xa;                                        `expense_id` BIGINT NOT NULL AUTO_INCREMENT,&#xa;                                        `project_id` BIGINT NOT NULL,&#xa;                                        `budget_id` BIGINT NOT NULL,&#xa;                                        `amount` DECIMAL(10, 2) NOT NULL,&#xa;                                        `status` TINYINT DEFAULT 0,&#xa;                                        PRIMARY KEY (`expense_id`),&#xa;                                        FOREIGN KEY (`project_id`) REFERENCES `biz_projects` (`project_id`)&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&#xa;&#xa;CREATE TABLE `biz_project_reports` (&#xa;                                       `report_id` BIGINT NOT NULL AUTO_INCREMENT,&#xa;                                       `project_id` BIGINT NOT NULL,&#xa;                                       `phase_id` INT NOT NULL,&#xa;                                       `title` VARCHAR(200),&#xa;                                       `content` TEXT,&#xa;                                       `file_url` VARCHAR(500),&#xa;                                       PRIMARY KEY (`report_id`),&#xa;                                       FOREIGN KEY (`project_id`) REFERENCES `biz_projects` (`project_id`) ON DELETE CASCADE&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&#xa;&#xa;CREATE TABLE `biz_project_reviews` (&#xa;                                       `review_id` BIGINT NOT NULL AUTO_INCREMENT,&#xa;                                       `project_id` BIGINT NOT NULL,&#xa;                                       `expert_id` BIGINT NOT NULL,&#xa;                                       `score` DECIMAL(5, 2),&#xa;                                       `comment` VARCHAR(1000),&#xa;                                       PRIMARY KEY (`review_id`),&#xa;                                       FOREIGN KEY (`project_id`) REFERENCES `biz_projects` (`project_id`) ON DELETE CASCADE&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&#xa;&#xa;CREATE TABLE `biz_project_expert_allocations` (&#xa;                                                  `id` BIGINT NOT NULL AUTO_INCREMENT,&#xa;                                                  `project_id` BIGINT NOT NULL,&#xa;                                                  `expert_id` BIGINT NOT NULL,&#xa;                                                  `phase_id` INT NOT NULL,&#xa;                                                  PRIMARY KEY (`id`)&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&#xa;&#xa;CREATE TABLE `sys_audit_logs` (&#xa;                                  `log_id` BIGINT NOT NULL AUTO_INCREMENT,&#xa;                                  `project_id` BIGINT NOT NULL,&#xa;                                  `operator_id` BIGINT NOT NULL,&#xa;                                  `action` VARCHAR(50) NOT NULL,&#xa;                                  `create_time` DATETIME DEFAULT CURRENT_TIMESTAMP,&#xa;                                  PRIMARY KEY (`log_id`)&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&#xa;&#xa;-- =======================================================&#xa;-- 4. 成果管理模块 (Outcome Module - New Design)&#xa;-- =======================================================&#xa;&#xa;-- 4.1 学术论文&#xa;CREATE TABLE `biz_project_papers` (&#xa;                                      `paper_id` BIGINT NOT NULL AUTO_INCREMENT,&#xa;                                      `project_id` BIGINT NOT NULL,&#xa;                                      `paper_title` VARCHAR(255) NOT NULL,&#xa;                                      `journal_name` VARCHAR(200),&#xa;                                      `publish_date` DATE,&#xa;                                      `indexing_type` VARCHAR(50) COMMENT &#39;字典: SCI/EI&#39;,&#xa;                                      `volume_issue` VARCHAR(100),&#xa;                                      `file_url` VARCHAR(500),&#xa;                                      `status` TINYINT DEFAULT 1,&#xa;                                      PRIMARY KEY (`paper_id`),&#xa;                                      INDEX `idx_project` (`project_id`),&#xa;                                      FOREIGN KEY (`project_id`) REFERENCES `biz_projects` (`project_id`) ON DELETE CASCADE&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT=&#39;成果-论文&#39;;&#xa;&#xa;-- 4.2 专利软著&#xa;CREATE TABLE `biz_project_patents` (&#xa;                                       `patent_id` BIGINT NOT NULL AUTO_INCREMENT,&#xa;                                       `project_id` BIGINT NOT NULL,&#xa;                                       `patent_name` VARCHAR(255) NOT NULL,&#xa;                                       `patent_type` VARCHAR(50) COMMENT &#39;字典: 发明/实用&#39;,&#xa;                                       `license_no` VARCHAR(100),&#xa;                                       `approve_date` DATE,&#xa;                                       `patent_owner` VARCHAR(100) DEFAULT &#39;本校&#39;,&#xa;                                       `file_url` VARCHAR(500),&#xa;                                       `status` TINYINT DEFAULT 1,&#xa;                                       PRIMARY KEY (`patent_id`),&#xa;                                       INDEX `idx_project` (`project_id`),&#xa;                                       FOREIGN KEY (`project_id`) REFERENCES `biz_projects` (`project_id`) ON DELETE CASCADE&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT=&#39;成果-专利&#39;;&#xa;&#xa;-- 4.3 学科竞赛&#xa;CREATE TABLE `biz_project_competitions` (&#xa;                                            `competition_id` BIGINT NOT NULL AUTO_INCREMENT,&#xa;                                            `project_id` BIGINT NOT NULL,&#xa;                                            `competition_name` VARCHAR(255) NOT NULL,&#xa;                                            `category` VARCHAR(50),&#xa;                                            `award_level` VARCHAR(50) COMMENT &#39;字典: 国家级&#39;,&#xa;                                            `award_grade` VARCHAR(50) COMMENT &#39;字典: 一等奖&#39;,&#xa;                                            `is_top_ranking` TINYINT DEFAULT 0,&#xa;                                            `certificate_no` VARCHAR(100),&#xa;                                            `file_url` VARCHAR(500),&#xa;                                            `status` TINYINT DEFAULT 1,&#xa;                                            PRIMARY KEY (`competition_id`),&#xa;                                            INDEX `idx_project` (`project_id`),&#xa;                                            FOREIGN KEY (`project_id`) REFERENCES `biz_projects` (`project_id`) ON DELETE CASCADE&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT=&#39;成果-竞赛&#39;;&#xa;&#xa;-- 4.4 论文作者关联 (有序)&#xa;CREATE TABLE `biz_paper_authors` (&#xa;                                     `id` BIGINT NOT NULL AUTO_INCREMENT,&#xa;                                     `paper_id` BIGINT NOT NULL,&#xa;                                     `user_id` BIGINT NOT NULL,&#xa;                                     `author_sort` INT NOT NULL DEFAULT 1 COMMENT &#39;排名&#39;,&#xa;                                     PRIMARY KEY (`id`),&#xa;                                     UNIQUE KEY `uk_paper_user` (`paper_id`, `user_id`),&#xa;                                     FOREIGN KEY (`paper_id`) REFERENCES `biz_project_papers` (`paper_id`) ON DELETE CASCADE,&#xa;                                     FOREIGN KEY (`user_id`) REFERENCES `sys_users` (`user_id`)&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&#xa;&#xa;-- 4.5 专利发明人关联 (有序)&#xa;CREATE TABLE `biz_patent_authors` (&#xa;                                      `id` BIGINT NOT NULL AUTO_INCREMENT,&#xa;                                      `patent_id` BIGINT NOT NULL,&#xa;                                      `user_id` BIGINT NOT NULL,&#xa;                                      `author_sort` INT NOT NULL DEFAULT 1,&#xa;                                      PRIMARY KEY (`id`),&#xa;                                      UNIQUE KEY `uk_patent_user` (`patent_id`, `user_id`),&#xa;                                      FOREIGN KEY (`patent_id`) REFERENCES `biz_project_patents` (`patent_id`) ON DELETE CASCADE,&#xa;                                      FOREIGN KEY (`user_id`) REFERENCES `sys_users` (`user_id`)&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&#xa;&#xa;-- 4.6 竞赛成员关联 (有序)&#xa;CREATE TABLE `biz_competition_members` (&#xa;                                           `id` BIGINT NOT NULL AUTO_INCREMENT,&#xa;                                           `competition_id` BIGINT NOT NULL,&#xa;                                           `user_id` BIGINT NOT NULL,&#xa;                                           `member_sort` INT NOT NULL DEFAULT 1,&#xa;                                           PRIMARY KEY (`id`),&#xa;                                           UNIQUE KEY `uk_comp_user` (`competition_id`, `user_id`),&#xa;                                           FOREIGN KEY (`competition_id`) REFERENCES `biz_project_competitions` (`competition_id`) ON DELETE CASCADE,&#xa;                                           FOREIGN KEY (`user_id`) REFERENCES `sys_users` (`user_id`)&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&#xa;&#xa;-- =======================================================&#xa;-- 5. 视图与导入 (Views &amp; Import)&#xa;-- =======================================================&#xa;&#xa;-- 5.1 导出论文视图 (修复语法：使用反引号)&#xa;CREATE VIEW `view_export_papers` AS&#xa;SELECT&#xa;    p.project_code AS `项目编号`,&#xa;    p.name AS `项目名称`,&#xa;    paper.paper_title AS `论文题目`,&#xa;    paper.journal_name AS `发表期刊`,&#xa;    (SELECT dict_label FROM sys_dicts WHERE type_code=&#39;paper_indexing&#39; AND dict_value=paper.indexing_type) AS `收录情况`,&#xa;    (SELECT GROUP_CONCAT(u.real_name ORDER BY a.author_sort SEPARATOR &#39;, &#39;)&#xa;     FROM biz_paper_authors a&#xa;              JOIN sys_users u ON a.user_id = u.user_id&#xa;     WHERE a.paper_id = paper.paper_id) AS `作者名单`&#xa;FROM biz_project_papers paper&#xa;         JOIN biz_projects p ON paper.project_id = p.project_id;&#xa;&#xa;-- 5.2 导出专利视图&#xa;CREATE VIEW `view_export_patents` AS&#xa;SELECT&#xa;    p.project_code AS `项目编号`,&#xa;    p.name AS `项目名称`,&#xa;    pat.patent_name AS `专利名称`,&#xa;    (SELECT dict_label FROM sys_dicts WHERE type_code=&#39;patent_type&#39; AND dict_value=pat.patent_type) AS `类型`,&#xa;    pat.license_no AS `授权号`,&#xa;    (SELECT GROUP_CONCAT(u.real_name ORDER BY a.author_sort SEPARATOR &#39;, &#39;)&#xa;     FROM biz_patent_authors a&#xa;              JOIN sys_users u ON a.user_id = u.user_id&#xa;     WHERE a.patent_id = pat.patent_id) AS `发明人名单`&#xa;FROM biz_project_patents pat&#xa;         JOIN biz_projects p ON pat.project_id = p.project_id;&#xa;&#xa;-- 5.3 导出竞赛视图&#xa;CREATE VIEW `view_export_competitions` AS&#xa;SELECT&#xa;    p.project_code AS `项目编号`,&#xa;    p.name AS `项目名称`,&#xa;    comp.competition_name AS `竞赛名称`,&#xa;    (SELECT dict_label FROM sys_dicts WHERE type_code=&#39;award_level&#39; AND dict_value=comp.award_level) AS `级别`,&#xa;    (SELECT dict_label FROM sys_dicts WHERE type_code=&#39;award_grade&#39; AND dict_value=comp.award_grade) AS `等级`,&#xa;    (SELECT GROUP_CONCAT(u.real_name ORDER BY m.member_sort SEPARATOR &#39;, &#39;)&#xa;     FROM biz_competition_members m&#xa;              JOIN sys_users u ON m.user_id = u.user_id&#xa;     WHERE m.competition_id = comp.competition_id) AS `获奖成员`&#xa;FROM biz_project_competitions comp&#xa;         JOIN biz_projects p ON comp.project_id = p.project_id;&#xa;&#xa;-- 5.4 导入暂存表&#xa;CREATE TABLE `tmp_import_buffer` (&#xa;                                     `row_id` BIGINT AUTO_INCREMENT PRIMARY KEY,&#xa;                                     `batch_id` VARCHAR(50),&#xa;                                     `project_code` VARCHAR(50),&#xa;                                     `title` VARCHAR(255),&#xa;                                     `type_text` VARCHAR(50),&#xa;                                     `authors_text` TEXT,&#xa;                                     `import_status` TINYINT DEFAULT 0,&#xa;                                     `error_msg` VARCHAR(255),&#xa;                                     `create_time` DATETIME DEFAULT CURRENT_TIMESTAMP&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&#xa;&#xa;-- =======================================================&#xa;-- 6. 数据初始化&#xa;-- =======================================================&#xa;INSERT INTO `sys_dicts` (`type_code`, `dict_label`, `dict_value`, `sort`) VALUES&#xa;                                                                              (&#39;paper_indexing&#39;, &#39;SCI收录&#39;, &#39;SCI&#39;, 1),&#xa;                                                                              (&#39;paper_indexing&#39;, &#39;EI收录&#39;, &#39;EI&#39;, 2),&#xa;                                                                              (&#39;paper_indexing&#39;, &#39;北大核心&#39;, &#39;PKU&#39;, 3),&#xa;                                                                              (&#39;paper_indexing&#39;, &#39;普通刊物&#39;, &#39;NORMAL&#39;, 4),&#xa;                                                                              (&#39;patent_type&#39;, &#39;发明专利&#39;, &#39;INVENTION&#39;, 1),&#xa;                                                                              (&#39;patent_type&#39;, &#39;实用新型&#39;, &#39;UTILITY&#39;, 2),&#xa;                                                                              (&#39;patent_type&#39;, &#39;外观设计&#39;, &#39;DESIGN&#39;, 3),&#xa;                                                                              (&#39;patent_type&#39;, &#39;软件著作权&#39;, &#39;SOFTWARE&#39;, 4),&#xa;                                                                              (&#39;award_level&#39;, &#39;国家级&#39;, &#39;NATIONAL&#39;, 1),&#xa;                                                                              (&#39;award_level&#39;, &#39;省部级&#39;, &#39;PROVINCIAL&#39;, 2),&#xa;                                                                              (&#39;award_level&#39;, &#39;校级&#39;, &#39;SCHOOL&#39;, 3),&#xa;                                                                              (&#39;award_grade&#39;, &#39;特等奖&#39;, &#39;SPECIAL&#39;, 1),&#xa;                                                                              (&#39;award_grade&#39;, &#39;一等奖&#39;, &#39;FIRST&#39;, 2),&#xa;                                                                              (&#39;award_grade&#39;, &#39;二等奖&#39;, &#39;SECOND&#39;, 3);&#xa;&#xa;-- 恢复外键检查 (安全措施)&#xa;SET FOREIGN_KEY_CHECKS = 1;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="360" width="560" height="6210" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-2" value="sys_colleges" style="shape=table;startSize=25;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="2886" y="6601" width="102" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-3" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-2">
+          <mxGeometry y="25" width="102" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-4" value="int" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-3">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-5" value="college_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-3">
+          <mxGeometry x="42" width="60" height="21" as="geometry">
+            <mxRectangle width="60" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-2">
+          <mxGeometry y="46" width="102" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-7" value="varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-6">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-8" value="name" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-6">
+          <mxGeometry x="42" width="60" height="21" as="geometry">
+            <mxRectangle width="60" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-9" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-2">
+          <mxGeometry y="67" width="102" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-10" value="varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-9">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-11" value="code" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-9">
+          <mxGeometry x="42" width="60" height="21" as="geometry">
+            <mxRectangle width="60" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-12" value="sys_users" style="shape=table;startSize=25;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="2885" y="6799" width="104" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-13" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-12">
+          <mxGeometry y="25" width="104" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-14" value="bigint" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-13">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-15" value="user_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-13">
+          <mxGeometry x="42" width="62" height="21" as="geometry">
+            <mxRectangle width="62" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-16" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-12">
+          <mxGeometry y="46" width="104" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-17" value="varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-16">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-18" value="username" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-16">
+          <mxGeometry x="42" width="62" height="21" as="geometry">
+            <mxRectangle width="62" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-19" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-12">
+          <mxGeometry y="67" width="104" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-20" value="varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-19">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-21" value="password" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-19">
+          <mxGeometry x="42" width="62" height="21" as="geometry">
+            <mxRectangle width="62" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-22" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-12">
+          <mxGeometry y="88" width="104" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-23" value="varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-22">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-24" value="real_name" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-22">
+          <mxGeometry x="42" width="62" height="21" as="geometry">
+            <mxRectangle width="62" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-25" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-12">
+          <mxGeometry y="109" width="104" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-26" value="int" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-25">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-27" value="college_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-25">
+          <mxGeometry x="42" width="62" height="21" as="geometry">
+            <mxRectangle width="62" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-28" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-12">
+          <mxGeometry y="130" width="104" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-29" value="varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-28">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-30" value="user_type" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-28">
+          <mxGeometry x="42" width="62" height="21" as="geometry">
+            <mxRectangle width="62" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-31" value="sys_student_profiles" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="7090" width="140" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-32" value="sys_teacher_profiles" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="7090" width="140" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-33" value="sys_user_roles" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="7090" width="107" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-34" value="sys_roles" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="6838" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-35" value="sys_flow_phases" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="3037" y="7090" width="117" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-36" value="sys_flow_steps" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="4440" y="7321" width="109" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-37" value="sys_flow_transitions" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="4425" y="7513" width="138" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-38" value="biz_project_reports" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="2416" y="7321" width="136" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-39" value="biz_project_expert_allocations" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="2652" y="7321" width="197" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-40" value="biz_projects" style="shape=table;startSize=25;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="3724" y="7051" width="132" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-41" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-40">
+          <mxGeometry y="25" width="132" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-42" value="bigint" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-41">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-43" value="project_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-41">
+          <mxGeometry x="42" width="90" height="21" as="geometry">
+            <mxRectangle width="90" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-44" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-40">
+          <mxGeometry y="46" width="132" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-45" value="varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-44">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-46" value="project_code" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-44">
+          <mxGeometry x="42" width="90" height="21" as="geometry">
+            <mxRectangle width="90" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-47" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-40">
+          <mxGeometry y="67" width="132" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-48" value="int" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-47">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-49" value="year" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-47">
+          <mxGeometry x="42" width="90" height="21" as="geometry">
+            <mxRectangle width="90" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-50" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-40">
+          <mxGeometry y="88" width="132" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-51" value="varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-50">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-52" value="name" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-50">
+          <mxGeometry x="42" width="90" height="21" as="geometry">
+            <mxRectangle width="90" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-53" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-40">
+          <mxGeometry y="109" width="132" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-54" value="int" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-53">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-55" value="current_step_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-53">
+          <mxGeometry x="42" width="90" height="21" as="geometry">
+            <mxRectangle width="90" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-56" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-40">
+          <mxGeometry y="130" width="132" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-57" value="bigint" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-56">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-58" value="leader_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-56">
+          <mxGeometry x="42" width="90" height="21" as="geometry">
+            <mxRectangle width="90" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-59" value="biz_project_members" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="2950" y="7321" width="147" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-60" value="biz_project_advisors" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="3234" y="7321" width="141" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-61" value="biz_project_budgets" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="3475" y="7321" width="140" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-62" value="biz_project_expenses" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="3715" y="7321" width="146" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-63" value="biz_project_reviews" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="3961" y="7321" width="139" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-64" value="biz_project_papers" style="shape=table;startSize=25;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="4200" y="7303" width="134" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-65" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-64">
+          <mxGeometry y="25" width="134" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-66" value="bigint" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-65">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-67" value="paper_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-65">
+          <mxGeometry x="42" width="92" height="21" as="geometry">
+            <mxRectangle width="92" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-68" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-64">
+          <mxGeometry y="46" width="134" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-69" value="bigint" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-68">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-70" value="project_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-68">
+          <mxGeometry x="42" width="92" height="21" as="geometry">
+            <mxRectangle width="92" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-71" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-64">
+          <mxGeometry y="67" width="134" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-72" value="varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-71">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-73" value="paper_title" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-71">
+          <mxGeometry x="42" width="92" height="21" as="geometry">
+            <mxRectangle width="92" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-74" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-64">
+          <mxGeometry y="88" width="134" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-75" value="varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-74">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-76" value="journal_name" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-74">
+          <mxGeometry x="42" width="92" height="21" as="geometry">
+            <mxRectangle width="92" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-77" value="biz_project_patents" style="shape=table;startSize=25;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="4790" y="7303" width="138" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-78" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-77">
+          <mxGeometry y="25" width="138" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-79" value="bigint" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-78">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-80" value="patent_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-78">
+          <mxGeometry x="42" width="96" height="21" as="geometry">
+            <mxRectangle width="96" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-81" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-77">
+          <mxGeometry y="46" width="138" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-82" value="bigint" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-81">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-83" value="project_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-81">
+          <mxGeometry x="42" width="96" height="21" as="geometry">
+            <mxRectangle width="96" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-84" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-77">
+          <mxGeometry y="67" width="138" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-85" value="varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-84">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-86" value="patent_name" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-84">
+          <mxGeometry x="42" width="96" height="21" as="geometry">
+            <mxRectangle width="96" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-87" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-77">
+          <mxGeometry y="88" width="138" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-88" value="varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-87">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-89" value="license_no" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-87">
+          <mxGeometry x="42" width="96" height="21" as="geometry">
+            <mxRectangle width="96" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-90" value="biz_project_competitions" style="shape=table;startSize=25;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="5128" y="7303" width="168" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-91" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-90">
+          <mxGeometry y="25" width="168" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-92" value="bigint" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-91">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-93" value="competition_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-91">
+          <mxGeometry x="42" width="126" height="21" as="geometry">
+            <mxRectangle width="126" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-94" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-90">
+          <mxGeometry y="46" width="168" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-95" value="bigint" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-94">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-96" value="project_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-94">
+          <mxGeometry x="42" width="126" height="21" as="geometry">
+            <mxRectangle width="126" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-97" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-90">
+          <mxGeometry y="67" width="168" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-98" value="varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-97">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-99" value="competition_name" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-97">
+          <mxGeometry x="42" width="126" height="21" as="geometry">
+            <mxRectangle width="126" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-100" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-90">
+          <mxGeometry y="88" width="168" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-101" value="varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-100">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-102" value="award_level" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-100">
+          <mxGeometry x="42" width="126" height="21" as="geometry">
+            <mxRectangle width="126" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-103" value="biz_paper_authors" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="7513" width="129" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-104" value="biz_patent_authors" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="4714" y="7513" width="134" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-105" value="biz_competition_members" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="5047" y="7513" width="173" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-106" value="sys_dicts" style="shape=table;startSize=25;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="3088" y="6590" width="104" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-107" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-106">
+          <mxGeometry y="25" width="104" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-108" value="int" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-107">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-109" value="dict_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-107">
+          <mxGeometry x="42" width="62" height="21" as="geometry">
+            <mxRectangle width="62" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-110" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-106">
+          <mxGeometry y="46" width="104" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-111" value="varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-110">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-112" value="type_code" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-110">
+          <mxGeometry x="42" width="62" height="21" as="geometry">
+            <mxRectangle width="62" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-113" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-106">
+          <mxGeometry y="67" width="104" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-114" value="varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-113">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-115" value="dict_label" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-113">
+          <mxGeometry x="42" width="62" height="21" as="geometry">
+            <mxRectangle width="62" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-116" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-106">
+          <mxGeometry y="88" width="104" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-117" value="varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-116">
+          <mxGeometry width="42" height="21" as="geometry">
+            <mxRectangle width="42" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-118" value="dict_value" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=2;overflow=hidden;fontSize=11;" vertex="1" parent="B0LW6k26Zl6aOCJYUx_S-116">
+          <mxGeometry x="42" width="62" height="21" as="geometry">
+            <mxRectangle width="62" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-119" value="belongs_to" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-2" target="B0LW6k26Zl6aOCJYUx_S-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-120" value="extends" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERmandOne;endSize=10;;exitX=0;exitY=0.54;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-12" target="B0LW6k26Zl6aOCJYUx_S-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1660" y="7001" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-121" value="extends" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERmandOne;endSize=10;;exitX=0;exitY=0.54;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-12" target="B0LW6k26Zl6aOCJYUx_S-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1900" y="7001" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-122" value="has" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0;exitY=0.56;entryX=0.64;entryY=0;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-12" target="B0LW6k26Zl6aOCJYUx_S-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2173" y="7001" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-123" value="assigned_to" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0.68;exitY=1;entryX=0.32;entryY=0;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-34" target="B0LW6k26Zl6aOCJYUx_S-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2061" y="7001" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-124" value="contains" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=1;exitY=0.57;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-35" target="B0LW6k26Zl6aOCJYUx_S-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4494" y="7253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-125" value="defines" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-36" target="B0LW6k26Zl6aOCJYUx_S-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-126" value="phase_at" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0;exitY=0.68;entryX=0.72;entryY=-0.01;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-35" target="B0LW6k26Zl6aOCJYUx_S-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2567" y="7253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-127" value="phase_at" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0;exitY=0.78;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-35" target="B0LW6k26Zl6aOCJYUx_S-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2751" y="7253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-128" value="includes" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0;exitY=0.58;entryX=0.76;entryY=-0.01;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-40" target="B0LW6k26Zl6aOCJYUx_S-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3132" y="7253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-129" value="guided_by" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0;exitY=0.63;entryX=0.68;entryY=-0.01;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-40" target="B0LW6k26Zl6aOCJYUx_S-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3375" y="7253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-130" value="plans" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0;exitY=0.72;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-40" target="B0LW6k26Zl6aOCJYUx_S-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3545" y="7253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-131" value="spends" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0.48;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-40" target="B0LW6k26Zl6aOCJYUx_S-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-132" value="submits" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0;exitY=0.54;entryX=0.37;entryY=-0.01;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-40" target="B0LW6k26Zl6aOCJYUx_S-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2434" y="7253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-133" value="receives" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0.97;exitY=0.72;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-40" target="B0LW6k26Zl6aOCJYUx_S-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4031" y="7253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-134" value="produces" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0.97;exitY=0.61;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-40" target="B0LW6k26Zl6aOCJYUx_S-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4267" y="7253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-135" value="generates" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0.97;exitY=0.55;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-40" target="B0LW6k26Zl6aOCJYUx_S-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4859" y="7253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-136" value="enters" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0.97;exitY=0.54;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-40" target="B0LW6k26Zl6aOCJYUx_S-90">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5212" y="7253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-137" value="written_by" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0.5;exitY=1.01;entryX=1;entryY=0.41;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-64" target="B0LW6k26Zl6aOCJYUx_S-103">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4267" y="7463" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-138" value="invented_by" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0.5;exitY=1.01;entryX=0.75;entryY=0;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-77" target="B0LW6k26Zl6aOCJYUx_S-104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4859" y="7463" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-139" value="participated_by" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0.5;exitY=1.01;entryX=0.69;entryY=0;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-90" target="B0LW6k26Zl6aOCJYUx_S-105">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5212" y="7463" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-140" value="leads" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=1;exitY=0.55;entryX=0.48;entryY=0;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-12" target="B0LW6k26Zl6aOCJYUx_S-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3788" y="7001" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-141" value="is_member" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0.5;exitY=1;entryX=0.29;entryY=-0.01;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-12" target="B0LW6k26Zl6aOCJYUx_S-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2937" y="7253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-142" value="is_advisor" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=1;exitY=0.64;entryX=0.37;entryY=-0.01;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-12" target="B0LW6k26Zl6aOCJYUx_S-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3254" y="7001" />
+              <mxPoint x="3254" y="7253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-143" value="is_author" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0;exitY=0.57;entryX=0;entryY=0.42;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-12" target="B0LW6k26Zl6aOCJYUx_S-103">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2300" y="7001" />
+              <mxPoint x="2300" y="7463" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-144" value="is_inventor" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=1;exitY=0.53;entryX=0.21;entryY=0;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-12" target="B0LW6k26Zl6aOCJYUx_S-104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4690" y="7001" />
+              <mxPoint x="4690" y="7463" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0LW6k26Zl6aOCJYUx_S-145" value="is_participant" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=1;exitY=0.52;entryX=0.24;entryY=0;rounded=0;" edge="1" parent="1" source="B0LW6k26Zl6aOCJYUx_S-12" target="B0LW6k26Zl6aOCJYUx_S-105">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5028" y="7001" />
+              <mxPoint x="5028" y="7463" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
