@@ -239,7 +239,7 @@
           <mxGeometry x="2800" y="7040" width="117" height="75" as="geometry" />
         </mxCell>
         <mxCell id="B0LW6k26Zl6aOCJYUx_S-36" value="sys_flow_steps" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="4440" y="7321" width="109" height="75" as="geometry" />
+          <mxGeometry x="4439.5" y="7280" width="109" height="75" as="geometry" />
         </mxCell>
         <mxCell id="B0LW6k26Zl6aOCJYUx_S-37" value="sys_flow_transitions" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="4425" y="7513" width="138" height="75" as="geometry" />
