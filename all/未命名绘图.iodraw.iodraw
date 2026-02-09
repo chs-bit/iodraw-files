@@ -3215,9 +3215,6 @@
         <mxCell id="B0LW6k26Zl6aOCJYUx_S-724" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="94796" y="829" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hmUWcBiHg9H2ebS3Bd7C-1" value="Text" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1110" y="360" width="60" height="30" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
