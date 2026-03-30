@@ -72,8 +72,14 @@
         <mxCell id="9duu6Xy7hyH7sPyMSDkX-13" value="计算过滤器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="770" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9duu6Xy7hyH7sPyMSDkX-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9duu6Xy7hyH7sPyMSDkX-14" value="输出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9duu6Xy7hyH7sPyMSDkX-15" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9duu6Xy7hyH7sPyMSDkX-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="830" as="sourcePoint" />
+            <mxPoint x="230" y="780" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
